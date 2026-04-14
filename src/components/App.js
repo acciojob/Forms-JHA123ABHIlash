@@ -10,15 +10,15 @@ export default function App() {
     
 <>
       <nav>
-        <NavLink to="/form">Form</NavLink> |{" "}
-        <NavLink to="/formref">FormRef</NavLink> |{" "}
-        <NavLink to="/formstate">FormState</NavLink>
+       <NavLink to="/form-link">Form</NavLink>
+<NavLink to="/form-ref-link">FormRef</NavLink>
+<NavLink to="/form-state-link">FormState</NavLink>
       </nav>
 
       <Switch>
-        <Route path="/form" component={Form} />
-        <Route path="/formref" component={FormRef} />
-        <Route path="/formstate" component={FormState} />
+        <Route path="/form-link" component={Form} />
+        <Route path="/form-ref-link" component={FormRef} />
+        <Route path="/form-state-link" component={FormState} />
       </Switch>
 
     </>
