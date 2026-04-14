@@ -15,7 +15,7 @@ export default function App() {
       </nav>
 
       <Switch>
-        <Route exact path="/" component={Form} />
+        {/* <Route exact path="/" component={Form} /> */}
         <Route exact path="/form" component={Form} />
         <Route exact path="/form-ref" component={FormRef} />
         <Route exact path="/form-state" component={FormState} />
