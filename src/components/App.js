@@ -9,16 +9,16 @@ export default function App() {
   return (
     <>
       <nav>
-        <NavLink to="/form-link">Form</NavLink> |{" "}
-        <NavLink to="/form-ref-link">FormRef</NavLink> |{" "}
-        <NavLink to="/form-state-link">FormState</NavLink>
+        <NavLink to="/form">Form</NavLink> |{" "}
+        <NavLink to="/form-ref">FormRef</NavLink> |{" "}
+        <NavLink to="/form-state">FormState</NavLink>
       </nav>
 
       <Switch>
         <Route exact path="/" component={Form} />
-        <Route exact path="/form-link" component={Form} />
-        <Route exact path="/form-ref-link" component={FormRef} />
-        <Route exact path="/form-state-link" component={FormState} />
+        <Route exact path="/form" component={Form} />
+        <Route exact path="/form-ref" component={FormRef} />
+        <Route exact path="/form-state" component={FormState} />
       </Switch>
     </>
   )
